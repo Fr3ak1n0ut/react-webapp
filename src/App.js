@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Grid, Navbar, Jumbotron, Button, Nav, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
+import CV from './CV.js';
 
 class App extends Component {
   render() {
@@ -44,6 +45,7 @@ class App extends Component {
                 View React Bootstrap Docs
               </Button>
             </p>
+            <CV name="test"></CV>
           </Grid>
         </Jumbotron>
       </div>
